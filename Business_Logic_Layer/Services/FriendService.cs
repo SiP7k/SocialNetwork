@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace SocialNetwork.Business_Logic_Layer.Services
 {
-    internal class FriendService
+    public class FriendService
     {
         IUserRepository userRepository;
         IFriendRepository friendRepository;

@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace SocialNetwork.PLL.Views
 {
-    internal class FriendsAddingView
+    public class FriendsAddingView
     {
         FriendService friendService;
         UserService userService;
@@ -21,7 +21,7 @@ namespace SocialNetwork.PLL.Views
             this.userService = userService;
         }
 
-        public void Show(User user)
+        public void Show(ref User user)
         {
             FriendRequestData friendRequestData = new FriendRequestData();
 
@@ -45,7 +45,6 @@ namespace SocialNetwork.PLL.Views
             {
                 AlertMessage.Show("Произошла ошибка при отправке запроса в друзья!");
             }
-
         }
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SocialNetwork.PLL.Views
 {
-    internal class RegistrationView
+    public class RegistrationView
     {
         UserService userService;
         public RegistrationView(UserService userService)

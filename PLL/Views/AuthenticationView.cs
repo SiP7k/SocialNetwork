@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace SocialNetwork.PLL.Views
 {
-    internal class AuthenticationView
+    public class AuthenticationView
     {
         UserService userService;
         public AuthenticationView(UserService userService)

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SocialNetwork.PLL.Views
 {
-    internal class UserDataUpdateView
+    public class UserDataUpdateView
     {
         UserService userService;
         public UserDataUpdateView(UserService userService)

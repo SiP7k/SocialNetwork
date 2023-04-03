@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SocialNetwork.PLL.Views
 {
-    internal class FriendsListView
+    public class FriendsListView
     {
         public void Show(IEnumerable<Friend> friendList)
         {

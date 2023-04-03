@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SocialNetwork.PLL.Views
 {
-    internal class UserInfoView
+    public class UserInfoView
     {
         public void Show(User user)
         {

@@ -5,7 +5,7 @@ using SocialNetwork.PLL.Views;
 
 namespace SocialNetwork
 {
-    internal class Program
+    public class Program
     {
         static MessageService messageService;
         static UserService userService;

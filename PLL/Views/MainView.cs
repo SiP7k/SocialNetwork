@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SocialNetwork.PLL.Views
 {
-    internal class MainView
+    public class MainView
     {
         public void Show()
         {

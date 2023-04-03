@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SocialNetwork.Business_Logic_Layer.Models
 {
-    internal class FriendRequestData
+    public class FriendRequestData
     {
         public int SenderId { get; set; }
         public string FriendEmail { get; set; }

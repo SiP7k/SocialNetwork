@@ -7,7 +7,7 @@ using SocialNetwork.Business_Logic_Layer.Models;
 
 namespace SocialNetwork.PLL.Views
 {
-    internal class UserIncomingMessageView
+    public class UserIncomingMessageView
     {
         public void Show(IEnumerable<Message> incomingMessages)
         {

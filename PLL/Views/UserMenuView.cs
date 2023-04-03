@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SocialNetwork.PLL.Views
 {
-    internal class UserMenuView
+    public class UserMenuView
     {
         UserService userService;
         public UserMenuView(UserService userService)
@@ -34,7 +34,7 @@ namespace SocialNetwork.PLL.Views
 
                 string keyValue = Console.ReadLine();
 
-                if (keyValue == "7") break;
+                if (keyValue == "8") break;
 
                 switch (keyValue)
                 {
@@ -50,7 +50,7 @@ namespace SocialNetwork.PLL.Views
                         }
                     case "3":
                         {
-                            Program.friendsAddingView.Show(user);
+                            Program.friendsAddingView.Show(ref user);
                             break;
                         }
                     case "4":
@@ -60,7 +60,7 @@ namespace SocialNetwork.PLL.Views
                         }
                     case "5":
                         {
-                            Program.messageSendingView.Show(user);
+                            Program.messageSendingView.Show(ref user);
                             break;
                         }
 
